@@ -14,7 +14,7 @@ jobs:
         uses: webfactory/ssh-agent@v0.5.3
         with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
-EC2
+
       - name: configure aws credentials  
         uses: aws-actions/configure-aws-credentials@v1
         with:
